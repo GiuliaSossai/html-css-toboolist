@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #F6F8F9;
+}
+
 .color {
   display: inline-block;
   font-size: 10px;
@@ -37,13 +41,9 @@ header .logo-name {
 
 /********* MAIN ********/
 
-main {
-  background-color: rgb(218, 210, 210);
-}
-
 .container {
   width: 70%;
-  margin: 0 auto;
+  margin: 40px auto;
   background-color: white;
   border-radius: 5px;
   /*padding: 10px 20px;*/
@@ -55,7 +55,7 @@ main {
   padding-left: 40px;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-bottom: 2px solid rgb(218, 210, 210);
+  border-bottom: 2px solid #F6F8F9;
 }
 
 button {
@@ -88,7 +88,7 @@ section {
 }
 
 .icon-down::before {
-  content: "\25BC";
+  content: "\25BE";
 }
 
 .subtitles {
@@ -101,11 +101,11 @@ section {
 }
 
 .tick-icon::after {
-  content: "\02714";
+  content: "\2705";
 }
 
 .ballot-box::after {
-  content: "\02717";
+  content: "\274C";
 }
 
 
