@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+.color {
+  display: inline-block;
+  font-size: 10px;
+  line-height: 20px;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
 /********* HEADER ********/
 
 header {
@@ -41,7 +50,7 @@ main {
 }
 
 .container-top {
-  padding-left: 20px;
+  padding-left: 40px;
   padding-top: 10px;
   padding-bottom: 10px;
   border-bottom: 2px solid rgb(218, 210, 210);
@@ -65,7 +74,7 @@ button {
 }
 
 .container-bottom {
-  padding: 20px;
+  padding-left: 40px;
 }
 
 section {
@@ -84,7 +93,7 @@ section {
 }
 
 .item {
-  line-height: 30px;;
+  line-height: 30px;
 }
 
 .tick-icon::after {
@@ -95,8 +104,29 @@ section {
   content: "\02717";
 }
 
-.color {
-  font-size: 12px;
-  background-color: lightskyblue;
 
+/*color item*/
+
+.editorial {
+  background-color: lightskyblue;
+}
+
+.goals {
+  background-color: #9C72E4;
+}
+
+.recruiting {
+  background-color: #64C0A9;
+}
+
+.mobile {
+  background-color: #F29E33;
+}
+
+.website {
+  background-color: #D763A1;
+}
+
+.sales {
+  background-color: #B0C925;
 }
