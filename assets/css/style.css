@@ -37,3 +37,27 @@ main {
   margin: 0 auto;
   background-color: white;
 }
+
+.container .top {
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid red;
+}
+
+button {
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.select {
+  color: white;
+  background-color: #44ADF1;
+  border: none;
+}
+
+.no-select {
+  color: lightgrey;
+  background-color: white;
+  border: 1px solid lightgrey;
+}
