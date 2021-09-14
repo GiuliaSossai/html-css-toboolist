@@ -49,6 +49,8 @@ main {
   /*padding: 10px 20px;*/
 }
 
+/***parte superiore container**/
+
 .container-top {
   padding-left: 40px;
   padding-top: 10px;
@@ -73,6 +75,8 @@ button {
   border: 1px solid lightgrey;
 }
 
+/***parte superiore container**/
+
 .container-bottom {
   padding-left: 40px;
 }
@@ -93,7 +97,7 @@ section {
 }
 
 .item {
-  line-height: 30px;
+  line-height: 40px;
 }
 
 .tick-icon::after {
