@@ -29,20 +29,22 @@ header .logo-name {
 /********* MAIN ********/
 
 main {
-  background-color: red;
+  background-color: rgb(218, 210, 210);
 }
 
 .container {
   width: 70%;
   margin: 0 auto;
   background-color: white;
+  border-radius: 5px;
+  /*padding: 10px 20px;*/
 }
 
-.container .top {
+.container-top {
   padding-left: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid rgb(218, 210, 210);
 }
 
 button {
@@ -60,4 +62,41 @@ button {
   color: lightgrey;
   background-color: white;
   border: 1px solid lightgrey;
+}
+
+.container-bottom {
+  padding: 20px;
+}
+
+section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.icon-down::before {
+  content: "\25BC";
+}
+
+.subtitles {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.item {
+  line-height: 30px;;
+}
+
+.tick-icon::after {
+  content: "\02714";
+}
+
+.ballot-box::after {
+  content: "\02717";
+}
+
+.color {
+  font-size: 12px;
+  background-color: lightskyblue;
+
 }
