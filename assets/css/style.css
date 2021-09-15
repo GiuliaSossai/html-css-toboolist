@@ -1,3 +1,5 @@
+/********* GLOBAL RULES ********/
+
 * {
   margin: 0;
   padding: 0;
@@ -15,12 +17,22 @@ button {
   cursor: pointer;
 }
 
+.circle {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
 .color {
   display: inline-block;
   font-size: 10px;
   color: white;
   line-height: 20px;
-  border-radius: 8px;
+  border-radius: 10px;
   padding: 3px 8px;
 }
 
@@ -53,15 +65,10 @@ header .logo-name {
   border-radius: 5px;
 }
 
-/***parte superiore container**/
-
-.container-top, .container-bottom {
-  padding-left: 64px;
-}
+/** parte superiore container **/
 
 .container-top {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 20px 60px;
   border-bottom: 2px solid #F6F8F9;
 }
 
@@ -77,36 +84,46 @@ header .logo-name {
   border: 1px solid lightgrey;
 }
 
-/***parte inferiore container**/
+/** parte inferiore container **/
 
-section {
-  padding-top: 20px;
-  padding-bottom: 20px;
+.container-bottom {
+  padding: 30px 60px;
 }
 
-.icon-down::before {
+h3 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.container-bottom li {
+  list-style: none;
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+
+.container-bottom li h3:before {
   content: "\25BE";
 }
 
-.subtitles {
-  font-size: 20px;
-  font-weight: bold;
+.second-list .checked {
+  border: 1px solid lightgreen;
+  color: lightgreen;
 }
 
-.item {
-  line-height: 40px;
+.second-list .checked::before {
+  content: "\02713";
 }
 
-.tick-icon::after {
-  content: "\2705";
+.second-list .erased {
+  border: 1px solid red;
+  color: red;
 }
 
-.ballot-box::after {
-  content: "\274C";
-}
+.second-list .erased::before {
+  content: "\02715";}
 
 
-/*color item*/
+/* color item */
 
 .editorial {
   background-color: lightskyblue;
