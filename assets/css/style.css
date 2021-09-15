@@ -5,7 +5,14 @@
 }
 
 body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #F6F8F9;
+}
+
+button {
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
 }
 
 .color {
@@ -14,8 +21,7 @@ body {
   color: white;
   line-height: 20px;
   border-radius: 8px;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding: 3px 8px;
 }
 
 /********* HEADER ********/
@@ -23,9 +29,7 @@ body {
 header {
   height: 80px;
   background-color: white;
-  padding-left: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 20px;
 }
 
 header .logo {
@@ -36,7 +40,6 @@ header .logo {
 header .logo-name {
   font-size: 40px;
   font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
   color: #000000;
   vertical-align: middle;
 }
@@ -62,15 +65,10 @@ header .logo-name {
   border-bottom: 2px solid #F6F8F9;
 }
 
-button {
-  border-radius: 5px;
-  padding: 8px;
-}
-
 .select {
   color: white;
   background-color: #44ADF1;
-  border: none;
+  border: 1px solid #44ADF1;
 }
 
 .no-select {
@@ -82,10 +80,8 @@ button {
 /***parte inferiore container**/
 
 section {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding-top: 20px;
   padding-bottom: 20px;
-
 }
 
 .icon-down::before {
